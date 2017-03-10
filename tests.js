@@ -14,6 +14,23 @@ assert.equal('abcde'.padStart(-1.2), 'abcde');
 assert.equal('abcde'.padStart(-1.5), 'abcde');
 assert.equal('abcde'.padStart(-1.9), 'abcde');
 
+assert.equal('abcde'.padStart('10'), '     abcde');
+assert.equal('abcde'.padStart('9'), '    abcde');
+assert.equal('abcde'.padStart('8'), '   abcde');
+assert.equal('abcde'.padStart('7'), '  abcde');
+assert.equal('abcde'.padStart('6'), ' abcde');
+assert.equal('abcde'.padStart('5'), 'abcde');
+assert.equal('abcde'.padStart('4'), 'abcde');
+assert.equal('abcde'.padStart('3'), 'abcde');
+assert.equal('abcde'.padStart('2'), 'abcde');
+assert.equal('abcde'.padStart('1'), 'abcde');
+assert.equal('abcde'.padStart('0'), 'abcde');
+assert.equal('abcde'.padStart('-1'), 'abcde');
+assert.equal('abcde'.padStart('-2'), 'abcde');
+assert.equal('abcde'.padStart('-3'), 'abcde');
+assert.equal('abcde'.padStart('-4'), 'abcde');
+assert.equal('abcde'.padStart('-5'), 'abcde');
+
 assert.equal('abcde'.padStart(10), '     abcde');
 assert.equal('abcde'.padStart(9), '    abcde');
 assert.equal('abcde'.padStart(8), '   abcde');
