@@ -2,6 +2,7 @@
   'use strict';
   if ('padStart' in String.prototype) return;
   String.prototype.padStart = function(len, str) {
+    len = parseInt(len); if (isNaN(len)) len = 0;
     str = str === undefined ? '\u0020' : String(str);
     if (len <= this.length || str.length === 0) return String(this);
     var buffer = new Array(len-this.length);
