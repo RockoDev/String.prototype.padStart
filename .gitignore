@@ -1,0 +1,11 @@
+#OSX
+.DS_Store
+
+#Windows
+desktop.ini
+
+#Node Modules
+node_modules
+
+#NPM files
+npm-debug.log
