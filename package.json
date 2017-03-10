@@ -1,0 +1,29 @@
+{
+  "name": "string.prototype.padstart",
+  "version": "0.0.1",
+  "description": "Polyfill for String.prototype.padStart().",
+  "homepage": "https://github.com/RockoDev/String.prototype.padStart",
+  "main": "padStart.polyfill.js",
+  "keywords": [
+    "javascript",
+    "polyfill",
+    "padstart"
+  ],
+  "license": "Apache 2.0",
+  "author": {
+    "name": "Bernardo Hernández",
+    "url": "https://www.rockodev.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RockoDev/String.prototype.padStart.git"
+  },
+  "bugs": "https://github.com/RockoDev/String.prototype.padStart/issues",
+  "files": [
+    "LICENSE",
+    "padStart.polyfill.js"
+  ],
+  "scripts": {
+    "test": "node tests.js"
+  }
+}
