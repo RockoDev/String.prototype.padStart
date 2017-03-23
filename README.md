@@ -5,3 +5,6 @@ Polyfill for [String.prototype.padStart()](https://developer.mozilla.org/en-US/d
 ```sh
 $ npm run test
 ```
+
+### Related:
+[String.prototype.padEnd()](https://github.com/RockoDev/String.prototype.padEnd)
